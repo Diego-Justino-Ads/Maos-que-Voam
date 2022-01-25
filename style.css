@@ -2,15 +2,10 @@ body {
     position: relative;
 }
 
-#conteudo {
-    width: 100%;
-    height: 100%;
-}
-
 .bloco {
     width: 100%;
     height: 80px;
-    margin-top: -15px;
+    margin-top: -150px;
     border: 1px rgb(39, 56, 150) solid;
     background: rgb(0, 165, 255);
     box-shadow: 0px 0px 10px rgba(39, 56, 150, 0.5);
@@ -25,16 +20,13 @@ body {
 
 #main {
 	width: 90%;
-    height: 520px;
 	margin : 0px auto;
     margin-top: 15px;
 }
 
 #navbar-example {
-    width: 20%;
-    min-width: 170px;
-    float: left;
-    margin-top: 70px;
+    margin-top: -65px;
+    width: 90%;
     border: 1px rgb(39, 56, 150) solid;
     background: rgb(248, 249, 250);
     box-shadow: 0px 0px 10px rgba(39, 56, 150, 0.5);
@@ -42,32 +34,18 @@ body {
     position: fixed;
 }
 
-.nav {
-    width: 100%;
+.textScroll {
+    margin-top: 150px;
 }
 
-.scroll {
-    padding-top: 10px;
-    width: 65%;
-    height: 500px;
-    margin-top: 58px;
-    float: right;
-    position: absolute right;
-}
-
-/* inicio menu responsivo*/
+/* inicio menu responsivo
 @media(max-width:800px){
     .scroll {
        width: 100%;
-    }
-
-    #navbar-example {
-        width: 90%;
-        height: 80px;
     }
 
     nav {
         justify-content: space-evenly;
         border: 1px black solid;
     }
- }
+ }*/
