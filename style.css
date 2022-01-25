@@ -54,3 +54,20 @@ body {
     float: right;
     position: absolute right;
 }
+
+/* inicio menu responsivo*/
+@media(max-width:800px){
+    .scroll {
+       width: 100%;
+    }
+
+    #navbar-example {
+        width: 90%;
+        height: 80px;
+    }
+
+    nav {
+        justify-content: space-evenly;
+        border: 1px black solid;
+    }
+ }
