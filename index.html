@@ -5,14 +5,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="img/OFICIAL.png" rel="shortcut icon" />
         <title> Mãos que Voam</title>
     </head>
     
-    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <body>
 
-        <div class="bloco">
+        <div id="list-item-0" class="bloco">
             <div class="logo">
                 <img src="img/branner1.png">
                 <br>MÃOS QUE VOAM
@@ -24,20 +23,20 @@
             <label for="check"></label>
             <span>
                 <b>></b>
-                <div id="navbar-example" class="list-group">
-                    <a class="list-group-item list-group-item-action" href="#list-item-1">Teste 1</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">Teste 2</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">Teste 3</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">Teste 4</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-5">Teste 5</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-6">Teste 6</a>
-                </div>
             </span>
+            <div id="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Teste 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Teste 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Teste 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Teste 4</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Teste 5</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Teste 6</a>
+            </div>
         </div>
 
-        <div id="main">
+        <div class="main">
 
-            <div class="textScroll" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="200" class="scrollspy-example" tabindex="0">
+            <div id="textScroll">
                 <h4 id="list-item-1">Teste 1</h4>
                 <p>Este é um conteúdo de espaço reservado para a página do scrollspy. Observe que, à medida que você rola a página, o link de navegação apropriado é realçado. É repetido em todo o exemplo do componente. Continuamos adicionando mais alguns exemplos de cópia aqui para enfatizar a rolagem e o realce.
                     Este é um conteúdo de espaço reservado para a página do scrollspy. Observe que, à medida que você rola a página, o link de navegação apropriado é realçado. É repetido em todo o exemplo do componente. Continuamos adicionando mais alguns exemplos de cópia aqui para enfatizar a rolagem e o realce.</p>
@@ -61,25 +60,6 @@
             </div>
         </div>
 
-        <a class="topo" href="#list-item-1"><button>&#9650;</button></a>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-        <script> 
-            var scrollSpy = new bootstrap.ScrollSpy(document.body, {target: '#navbar-example'});
-
-            var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'));
-                        
-            dataSpyList.forEach(function (dataSpyEl) {
-            bootstrap.ScrollSpy.getInstance(dataSpyEl).refresh()
-            });
-
-            var scrollSpyContentEl = document.getElementById('content')
-            var scrollSpy = bootstrap.ScrollSpy.getInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance
-
-            var scrollSpyContentEl = document.getElementById('content')
-            var scrollSpy = bootstrap.ScrollSpy.getOrCreateInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance
-        </script>
+        <a class="topo" href="#list-item-0"><button>&#9650;</button></a>
     </body>
 </html>

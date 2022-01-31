@@ -24,11 +24,15 @@ body {
     text-align: center;
 }
 
-#main {
+.main {
 	width: 90%;
 	margin : 0px auto;
     margin-top: 15px;
     text-align: center;
+}
+
+.scrollspy-example {
+    width: 100%;
 }
 
 #navbar-example {
@@ -150,8 +154,18 @@ span {
     background-size: cover;
 }
 
+.cartaoVisita {
+    width: 410px;
+    height: 320px;
+    margin: 0px auto;
+}
+
+.text {
+    text-shadow: 0px 0px 15px rgba(0, 165, 255, 0.5);
+}
+
 /* inicio menu responsivo */
-@media screen and (max-width:800px){
+@media(max-width:800px){
     iframe {
         margin-left: 0px;
         width: 100%;
