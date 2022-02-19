@@ -3,51 +3,70 @@
     color: darkblue;
 }
 
-img {
-    width: 80px;
-    margin-left: 5px;
+body {
+    background-image: linear-gradient(to top, #f0f0f0, rgb(0, 165, 255), blue, rgb(4, 52, 92), darkblue);
+}
+
+#conteudo {
+    padding-top: 40px;
+    background: #fff;
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.linha {
+    margin: 60px 15px 20px 15px;
+    background: url("img/linha.png");
+}
+
+.fita img {
+    position: absolute;
+    opacity: 80%;
+    top: 95px;
+    left: 48%;
+    transform: rotate(-1.5deg);
+    z-index: 1;
+}
+
+.logo img {
+    width: 100px;
+    transform: rotate(3deg);
 }
 
 h1 {
     margin: 0px 10px 0px 0px;
-    font-size: 32px;
+    font-size: 42px;
     float: right;
 }
 
 .bloco {
-    padding: 10% 0% 10% 0%;
-    width: 100%;
-    background: url("img/fundo.png");
+    margin: 0px auto;
+    width: 95%;
     background-size: cover;
-}
-
-.bloco2 {
-    margin-top: 10%;
-    background: blue;
-}
-
-.bloco3 {
-    margin-top: 10%;
-    background: white;
-}
-
-.bloco4 {
-    margin-top: 10%;
-    background: pink;
 }
 
 .text {
     padding: 0% 3% 0% 3%;
     text-align: center;
     margin: 0px auto;
+    margin-top: 8%;
+    background: rgb(0, 165, 255);
+    border: 2px rgb(4, 52, 92) dashed;
     width: 80%;
     font-size: 26px;
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    box-shadow: 0px 15px 15px rgba(4, 52, 92, 0.5);
 }
 
 .logo {
-    width: 430px;
-    margin-left: 10px;
+    width: 520px;
+    margin: 0px auto;
+    padding: 15px;
+    background: rgb(0, 165, 255);
+    transform: rotate(3deg);
+    border: 2px rgb(4, 52, 92) dotted;
+    box-shadow: 0px 5px 5px rgba(4, 52, 92, 0.5);
 }
 
 span {    
