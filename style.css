@@ -51,7 +51,7 @@ h1 {
     margin-top: 8%;
     background: rgb(0, 165, 255);
     font-size: 26px;
-    box-shadow: 0px 15px 15px rgba(4, 52, 92, 0.5);
+    box-shadow: 0px 0px 15px rgba(4, 52, 92, 0.5);
 }
 
 .logo {
