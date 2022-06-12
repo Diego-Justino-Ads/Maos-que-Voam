@@ -120,7 +120,7 @@ img {
     width: 99%;
     height: 80px;
     margin-top: -8px;
-    background-image: linear-gradient(to left, rgb(4, 54, 94), rgb(4, 54, 94), rgb(0, 165, 255));
+    background-image: linear-gradient(to left, rgb(4, 54, 94), rgb(0, 165, 255));
     border: 2px rgb(4, 52, 92) dotted;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
