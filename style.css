@@ -31,6 +31,11 @@ h1 {
     float: right;
 }
 
+h2 {
+    width: 100%;
+    border: 1px solid black;
+}
+
 .bloco {
     margin: 0px auto;
     width: 100%;
@@ -38,6 +43,10 @@ h1 {
 }
 
 .bloco1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 5% 3% 5% 3%;
     text-align: center;
     margin-top: 8%;
@@ -70,7 +79,6 @@ img {
 
 .img1 {
     float: right;
-    margin-top: -420px;
     border-radius: 15px;
 }
 
