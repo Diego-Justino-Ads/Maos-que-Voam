@@ -1,5 +1,5 @@
 * {
-	font-family: Times New Roman;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkblue;
 }
 
@@ -10,30 +10,18 @@
     text-align: center;
 }
 
-.fita img {
-    position: absolute;
-    opacity: 80%;
-    top: 35px;
-    left: 48%;
-    transform: rotate(-1.5deg);
-    z-index: 1;
-    border: none;
-}
-
 .logo img {
-    width: 100px;
-    transform: rotate(3deg);
+    float: left;
 }
 
 h1 {
-    margin: 0px 10px 0px 0px;
+    margin-top: 15px;
     font-size: 42px;
-    float: right;
+    text-align: left;
 }
 
 h2 {
     width: 100%;
-    border: 1px solid black;
 }
 
 .bloco {
@@ -128,13 +116,14 @@ img {
 }
 
 .logo {
-    width: 520px;
-    margin: 0px auto;
-    padding: 15px;
-    background: rgb(0, 165, 255);
-    transform: rotate(3deg);
+    position: fixed;
+    width: 99%;
+    height: 80px;
+    margin-top: -8px;
+    background-image: linear-gradient(to left, rgb(4, 54, 94), rgb(4, 54, 94), rgb(0, 165, 255));
     border: 2px rgb(4, 52, 92) dotted;
-    box-shadow: 0px 5px 5px rgba(4, 52, 92, 0.5);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 span {    
